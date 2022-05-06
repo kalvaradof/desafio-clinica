@@ -1,19 +1,23 @@
-## DESAFIO CITAS MEDICAS
-### Datos clientes clinica
+# desafio-citas-medicas
 
-Requerimientos
-1. El registro de los usuarios debe hacerse con la API Random User usando axios para
-consultar la data.
-2. Cada usuario registrado debe tener un campo id único generado por el paquete
-UUID.
-3. Cada usuario debe tener un campo timestamp almacenando la fecha de registro
-obtenida por medio del paquete Moment.
-4. Por cada consulta realizada al servidor, se debe devolver al cliente una lista con los
-datos de todos los usuarios registrados usando Lodash para recorrer el arreglo de
-usuarios.
-5. En cada consulta también se debe imprimir por la consola del servidor la misma lista
-de usuarios pero con fondo blanco y color de texto azul usando el paquete Chalk.
-6. El servidor debe ser levantado con el comando Nodemon.
+## Descripción
+    
+Está apliación está basado en los siguientes capítulos de la lectura del módulo N°6 "Node y el Gestor de paquetes NPM"
++ Conociendo NPM 
++ Manejo de dependencias 
++ Conociendo paquetes en Node 
++ Paquetes NPM que no procesan datos 
++ Paquetes NPM para el procesamiento de datos 
 
-// NOTA: Nodemon fue instalado de manera global al crear este proyecto
-// NOTA: Se debe usar la linea: npm install -g nodemon
+***
+## Instrucciones
+_Nodemon fue instalado de manera global al crear este proyecto_ <br />
+_NOTA: Se debe usar la linea: npm install -g nodemon_
+
+## Dependencias Utilizadas ##
+
+> Axios 0.27.2 
+> Chalk 4.1.0  
+> Lodash 4.17.21  
+> Moment 2.29.3  
+> UUID 8.3.2 
